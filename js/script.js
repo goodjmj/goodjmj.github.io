@@ -6,73 +6,73 @@ app.controller('MainCtrl', function MainCtrl($scope) {
       url : "images/wallpapers/lock-screen-1.jpg",
       category : "home",
       title : "갑질은 계속된다, 멈추라고 하지 않으면",
-      description : "아이폰 홈화면"
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/lock-screen-2.jpg",
       category : "home",
       title : "좋게 좋게 넘어가지 않아야 좋은 세상이 온다.",
-      description : "아이폰 홈화면"
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/lock-screen-3.jpg",
       category : "home",
       title : "애정 없는 비판에 일일이 상처받지 않기",
-      description : "아이폰 홈화면"
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/lock-screen-4.jpg",
       category : "home",
-      title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
-      description : "아이폰 홈화면"
+      title : "세월호가 떠오르는 모습을 우리는 함께 보고 있다.",
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/lock-screen-5.jpg",
       category : "home",
-      title : "사람들이 말하게 두고, 나는 나의 일을 하러 가자",
-      description : "아이폰 홈화면"
+      title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/lock-screen-6.jpg",
       category : "home",
-      title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
-      description : "아이폰 홈화면"
+      title : "사람들이 말하게 두고, 나는 나의 일을 하러 가자",
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/lock-screen-7.jpg",
       category : "home",
-      title : "나는 잘 모르지만 그럴 수 있겠다 라고 공감하는 것",
-      description : "아이폰 홈화면"
+      title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/lock-screen-8.jpg",
       category : "home",
-      title : "갑질은 계속된다, 멈추라고 하지 않으면",
-      description : "아이폰 홈화면"
+      title : "나는 잘 모르지만 그럴 수 있겠다 라고 공감하는 것",
+      description : "모바일 배경화면"
     },
     {
       url : "images/wallpapers/mac-horizontal-1.jpg",
       category : "mac",
       title : "갑질은 계속된다, 멈추라고 하지 않으면",
-      description : "맥북 가로 화면"
+      description : "데스크톱 배경화면"
     },
     {
       url : "images/wallpapers/mac-horizontal-2.jpg",
       category : "mac",
       title : "애정 없는 비판에 일일이 상처받지 않기",
-      description : "맥북 가로 화면"
+      description : "데스크톱 배경화면"
     },
     {
       url : "images/wallpapers/mac-horizontal-3.jpg",
       category : "mac",
       title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
-      description : "맥북 가로 화면"
+      description : "데스크톱 배경화면"
     },
     {
       url : "images/wallpapers/mac-horizontal-4.jpg",
       category : "mac",
       title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
-      description : "맥북 가로 화면"
+      description : "데스크톱 배경화면"
     },
   ]
 
