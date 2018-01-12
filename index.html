@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html ng-app="goodJMJ">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<meta name="twitter:widgets:theme" content="light">
+	<meta property="og:title" content="무례한 사람에게 웃으며 대처하는 법" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="Your-Image-Url" />
+	<meta property="og:description" content="갑자기 선을 훅 넘는 사람들에게 감정의 동요 없이 '금 밟으셨어요' 하고 알려줄 방법은 없을까? 살다 보면 무례한 사람을 만나기 마련이다. 그들은 내게 상처를 주고 당혹감을 안기며, 기껏 붙잡고 사느라 힘든 자존감을 뒤흔들어 놓는다. 어떤 인간관계는 유지하는 그 자체만으로 지나치게 에너지가 들 때가 있다. 내 속마음을 말하고 싶지만, 오해받을까 봐, 이기적인 사람처럼 보일까 봐, 하고 싶은 말을 속으로만 삭이게 된다. 그런 이들에게 감정의 도용 없이 '금 밟으셨어요' 하고 알려줄 방법은 없을까? 당연히 있다. 다만 그 방법을 실제로 사용하려면 연습이 좀 필요하다. - 무례한 사람에게 웃으며 대처하는 법 중에서" />
+
+	<title>무례한 사람에게 웃으며 대처하는 법 | 정문정</title>
+	
+	<!-- angularJS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+
+	<!-- Css -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css" />
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body class="shop home-page" ng-controller="MainCtrl">
+
+	<div class="wrapper reveal-side-navigation">
+		<div class="wrapper-inner">
+
+			<!-- Content -->
+			<div class="content clearfix">
+
+				<!-- Fullscreen Slider Section -->
+				<section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
+					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax>
+						<ul class="tms-slides">
+							<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.55">
+								<div class="tms-content">
+									<div class="tms-content-inner left left-on-mobile v-align-middle">
+										<div class="row">
+											<div class="column width-12">
+												<h1 class="tms-caption color-white weight-light mb-0"
+												data-animate-in="preset:fadeIn;duration:1000ms;delay:100ms;"
+												data-no-scale
+												>
+													<span class="ko">무례한 사람에게 웃으며 대처하는 법</span>
+												</h1>
+												<div class="tms-caption" style="width:100%;"
+													data-animate-in="preset:scaleOut;duration:1000ms;"
+													data-no-scale>
+													<hr class="opacity-05">
+												</div>
+												<h3 class="tms-caption color-grey-light weight-light mb-20 mb-mobile-20"
+												data-animate-in="preset:slideInDownShort;duration:1000ms;delay:1000ms;"
+												data-no-scale
+												>
+													<span class="ko">정문정 지음 / 가나출판사</span>
+												</h3>
+												<a href="#folio" class="tms-caption pull-right color-white scroll-link icon-down-open-mini medium hide-on-mobile" 
+													data-animate-in="preset:slideInUpShort;duration:1000ms;delay:1000ms;"
+													data-no-scale>
+												</a>
+												<div class="clear"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<img data-src="images/slide-2-fs.jpg" data-retina src="images/blank.png" alt=""/>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- Fullscreen Slider Section End -->
+
+
+				<!-- Portfolio Grid -->
+				<div id="folio" class="section-block small-margins no-padding-bottom bkg-grey-ultralight">
+					<div class="row">
+						<div class="column width-12">
+							<div class="grid-filter-menu list-horizontal no-padding left mb-60">
+								<ul>
+									<li><a class="active inline" href="#" data-filter="*">All</a></li>
+									<li><a href="#" class="inline" data-filter=".home">MOBILE</a></li>
+									<!-- <li><a href="#" class="inline" data-filter=".lock">LOCK SCREEN</a></li> -->
+									<li><a href="#" class="inline" data-filter=".mac">DESKTOP</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section-block grid-container fade-in-progressively no-margins bkg-grey-ultralight no-padding-top" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0.8">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row grid content-grid-4">
+								<div class="grid-item grid-sizer {{w.category}}" ng-repeat="w in wallpaperList">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.65">
+										<a class="overlay-link lightbox-link" data-group="wallpaper" data-caption="Winter" data-image-url="{{w.url}}" href="{{w.url}}" data-lightbox-animation="slideInTop">
+											<img src="{{w.url}}" alt=""/>
+											<span class="overlay-info center">
+												<span>
+													<span>
+														<span>
+															<span class="project-title ko">{{w.title}}</span>
+															<span class="project-description ko">{{w.description}}</span>
+														</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Grid Section 5 End -->
+
+				<!-- Client Section Custom -->
+				<div class="section-block clients-1 replicable-content bkg-charcoal color-white">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row content-grid-5 flex center">
+								<div class="grid-item" ng-repeat="bookstore in bookstoreList|orderBy:random">
+									<a href="{{bookstore.url}}" target="_blank">
+										<div class="bookstorelogo">
+											<img src="images/logos/{{bookstore.logo}}" />
+										</div>
+										<h5 class="client-name ko">{{bookstore.name}}</h5>
+										<div class="left">
+											<span class="client-description font-alt-1 ko">{{bookstore.review}}</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="column width-12 pt-70">
+							<hr class="no-margins border-grey opacity-05">
+						</div>
+					</div>
+				</div>
+				<!-- Client Section Custom End -->
+
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="footer-top">
+					<div class="row flex">
+						<div class="column width-12 center">
+							<div class="widget">
+								<p class="no-margin-bottom">
+									<span class="ko thanksto">Special Thanks to <a href="https://univ20.com/78213" target="_blank">"키미앤일이"</a></span>
+								</p>
+								<p class="thanksto-link">
+									<a href="https://www.instagram.com/kimi_and_12/?hl=ko" target="_blank"><span class="ko">인스타그램</span></a>
+									<a href="http://storefarm.naver.com/kimiand12" target="_blank"><span class="ko">굿즈스토어</span></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Footer End -->
+
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/timber.master.min.js"></script>
+	<script src="js/script.js"></script>
+
+
+
+
+</body>
+</html>
