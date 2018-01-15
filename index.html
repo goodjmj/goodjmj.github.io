@@ -103,9 +103,11 @@
 							<div class="grid-filter-menu list-horizontal no-padding left mb-60">
 								<ul>
 									<li><a class="active inline" href="#" data-filter="*">All</a></li>
-									<li><a href="#" class="inline" data-filter=".home">MOBILE</a></li>
-									<!-- <li><a href="#" class="inline" data-filter=".lock">LOCK SCREEN</a></li> -->
-									<li><a href="#" class="inline" data-filter=".mac">DESKTOP</a></li>
+									<li><a href="#" class="inline" data-filter=".android">안드로이드</a></li>
+									<li><a href="#" class="inline" data-filter=".iphone">아이폰</a></li>
+									<li><a href="#" class="inline" data-filter=".win">윈도우</a></li>
+									<li><a href="#" class="inline" data-filter=".macbook">맥북프로</a></li>
+									<li><a href="#" class="inline" data-filter=".imac">아이맥</a></li>
 								</ul>
 							</div>
 						</div>
@@ -117,7 +119,7 @@
 							<div class="row grid content-grid-4">
 								<div class="grid-item grid-sizer {{w.category}}" ng-repeat="w in wallpaperList">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#000000" data-hover-bkg-opacity="0.65">
-										<a class="overlay-link lightbox-link" data-group="wallpaper" data-caption="무례한 사람에게 웃으며 대처하는 법" data-image-url="{{w.url}}" href="{{w.url}}" data-lightbox-animation="slideInTop">
+										<a class="overlay-link lightbox-link" data-group="wallpaper" data-caption="{{w.description}}" data-image-url="{{w.url}}" href="{{w.url}}" data-lightbox-animation="slideInTop">
 											<img src="{{w.url}}" alt=""/>
 											<span class="overlay-info center">
 												<span>

@@ -3,76 +3,172 @@ app.controller('MainCtrl', function MainCtrl($scope) {
 
   $scope.wallpaperList = [
     {
-      url : "images/wallpapers/lock-screen-1.jpg",
-      category : "home",
-      title : "갑질은 계속된다, 멈추라고 하지 않으면",
-      description : "모바일 배경화면"
+      url : "images/wallpapers/android-WQHD-1.jpg",
+      category : "android",
+      title : "무례한 사람에게 웃으면서 대처하는 법",
+      description : "안드로이드 배경화면 (1440x2560)"
     },
     {
-      url : "images/wallpapers/lock-screen-2.jpg",
-      category : "home",
+      url : "images/wallpapers/android-WQHD-2.jpg",
+      category : "android",
+      title : "갑질은 계속된다, 멈추라고 하지 않으면",
+      description : "안드로이드 배경화면 (1440x2560)"
+    },
+    {
+      url : "images/wallpapers/android-WQHD-3.jpg",
+      category : "android",
       title : "좋게 좋게 넘어가지 않아야 좋은 세상이 온다.",
-      description : "모바일 배경화면"
+      description : "안드로이드 배경화면 (1440x2560)"
     },
     {
-      url : "images/wallpapers/lock-screen-3.jpg",
-      category : "home",
+      url : "images/wallpapers/android-WQHD-4.jpg",
+      category : "android",
       title : "애정 없는 비판에 일일이 상처받지 않기",
-      description : "모바일 배경화면"
+      description : "안드로이드 배경화면 (1440x2560)"
     },
     {
-      url : "images/wallpapers/lock-screen-4.jpg",
-      category : "home",
-      title : "세월호가 떠오르는 모습을 우리는 함께 보고 있다.",
-      description : "모바일 배경화면"
-    },
-    {
-      url : "images/wallpapers/lock-screen-5.jpg",
-      category : "home",
+      url : "images/wallpapers/android-WQHD-5.jpg",
+      category : "android",
       title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
-      description : "모바일 배경화면"
+      description : "안드로이드 배경화면 (1440x2560)"
     },
     {
-      url : "images/wallpapers/lock-screen-6.jpg",
-      category : "home",
+      url : "images/wallpapers/android-WQHD-6.jpg",
+      category : "android",
       title : "사람들이 말하게 두고, 나는 나의 일을 하러 가자",
-      description : "모바일 배경화면"
+      description : "안드로이드 배경화면 (1440x2560)"
     },
     {
-      url : "images/wallpapers/lock-screen-7.jpg",
-      category : "home",
+      url : "images/wallpapers/android-WQHD-7.jpg",
+      category : "android",
       title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
-      description : "모바일 배경화면"
+      description : "안드로이드 배경화면 (1440x2560)"
     },
     {
-      url : "images/wallpapers/lock-screen-8.jpg",
-      category : "home",
-      title : "나는 잘 모르지만 그럴 수 있겠다 라고 공감하는 것",
-      description : "모바일 배경화면"
+      url : "images/wallpapers/android-WQHD-8.jpg",
+      category : "android",
+      title : "모르니까, 쉽게 무시하거나 비난하지 않는 것",
+      description : "안드로이드 배경화면 (1440x2560)"
     },
     {
-      url : "images/wallpapers/mac-horizontal-1.jpg",
-      category : "mac",
+      url : "images/wallpapers/iphone-1.jpg",
+      category : "iphone",
+      title : "무례한 사람에게 웃으면서 대처하는 법",
+      description : "아이폰 배경화면 (750x1334)"
+    },
+    {
+      url : "images/wallpapers/iphone-2.jpg",
+      category : "iphone",
       title : "갑질은 계속된다, 멈추라고 하지 않으면",
-      description : "데스크톱 배경화면"
+      description : "아이폰 배경화면 (750x1334)"
     },
     {
-      url : "images/wallpapers/mac-horizontal-2.jpg",
-      category : "mac",
+      url : "images/wallpapers/iphone-3.jpg",
+      category : "iphone",
+      title : "좋게 좋게 넘어가지 않아야 좋은 세상이 온다.",
+      description : "아이폰 배경화면 (750x1334)"
+    },
+    {
+      url : "images/wallpapers/iphone-4.jpg",
+      category : "iphone",
       title : "애정 없는 비판에 일일이 상처받지 않기",
-      description : "데스크톱 배경화면"
+      description : "아이폰 배경화면 (750x1334)"
     },
     {
-      url : "images/wallpapers/mac-horizontal-3.jpg",
-      category : "mac",
-      title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
-      description : "데스크톱 배경화면"
-    },
-    {
-      url : "images/wallpapers/mac-horizontal-4.jpg",
-      category : "mac",
+      url : "images/wallpapers/iphone-5.jpg",
+      category : "iphone",
       title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
-      description : "데스크톱 배경화면"
+      description : "아이폰 배경화면 (750x1334)"
+    },
+    {
+      url : "images/wallpapers/iphone-6.jpg",
+      category : "iphone",
+      title : "사람들이 말하게 두고, 나는 나의 일을 하러 가자",
+      description : "아이폰 배경화면 (750x1334)"
+    },
+    {
+      url : "images/wallpapers/iphone-7.jpg",
+      category : "iphone",
+      title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
+      description : "아이폰 배경화면 (750x1334)"
+    },
+    {
+      url : "images/wallpapers/iphone-8.jpg",
+      category : "iphone",
+      title : "모르니까, 쉽게 무시하거나 비난하지 않는 것",
+      description : "아이폰 배경화면 (750x1334)"
+    },
+    {
+      url : "images/wallpapers/win-fhd-1.jpg",
+      category : "win",
+      title : "갑질은 계속된다, 멈추라고 하지 않으면",
+      description : "데스크톱 배경화면 (1920x1080)"
+    },
+    {
+      url : "images/wallpapers/win-fhd-2.jpg",
+      category : "win",
+      title : "애정 없는 비판에 일일이 상처받지 않기",
+      description : "데스크톱 배경화면 (1920x1080)"
+    },
+    {
+      url : "images/wallpapers/win-fhd-3.jpg",
+      category : "win",
+      title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
+      description : "데스크톱 배경화면 (1920x1080)"
+    },
+    {
+      url : "images/wallpapers/win-fhd-4.jpg",
+      category : "win",
+      title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
+      description : "데스크톱 배경화면 (1920x1080)"
+    },
+    {
+      url : "images/wallpapers/macbook-WQUXGA-1.jpg",
+      category : "macbook",
+      title : "갑질은 계속된다, 멈추라고 하지 않으면",
+      description : "맥북프로 배경화면 (3840x2400)"
+    },
+    {
+      url : "images/wallpapers/macbook-WQUXGA-2.jpg",
+      category : "macbook",
+      title : "애정 없는 비판에 일일이 상처받지 않기",
+      description : "맥북프로 배경화면 (3840x2400)"
+    },
+    {
+      url : "images/wallpapers/macbook-WQUXGA-3.jpg",
+      category : "macbook",
+      title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
+      description : "맥북프로 배경화면 (3840x2400)"
+    },
+    {
+      url : "images/wallpapers/macbook-WQUXGA-4.jpg",
+      category : "macbook",
+      title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
+      description : "맥북프로 배경화면 (3840x2400)"
+    },
+    {
+      url : "images/wallpapers/imac-5k-1.jpg",
+      category : "imac",
+      title : "갑질은 계속된다, 멈추라고 하지 않으면",
+      description : "아이맥 배경화면 (5120x2880)"
+    },
+    {
+      url : "images/wallpapers/imac-5k-2.jpg",
+      category : "imac",
+      title : "애정 없는 비판에 일일이 상처받지 않기",
+      description : "아이맥 배경화면 (5120x2880)"
+    },
+    {
+      url : "images/wallpapers/imac-5k-3.jpg",
+      category : "imac",
+      title : "오늘의 나를 행복하게 하는데 최선을 다할 것",
+      description : "아이맥 배경화면 (5120x2880)"
+    },
+    {
+      url : "images/wallpapers/imac-5k-4.jpg",
+      category : "imac",
+      title : "인생 자체는 긍정적으로, 개소리에는 단호하게!",
+      description : "아이맥 배경화면 (5120x2880)"
     },
   ]
 
